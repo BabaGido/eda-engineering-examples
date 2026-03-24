@@ -5,7 +5,7 @@
 * in an RC low-pass filter configuration. The output voltage rises
 * exponentially according to the RC time constant τ = RC.
 
-* RC Low Pass Filter Simulation
+* RC Low Pass Filter Simulation (Ngspice Example)
 
 * Voltage Source
 V1 in 0 DC 5
