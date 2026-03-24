@@ -1,0 +1,27 @@
+* Example: RC Low-Pass Filter
+* Tool: Ngspice
+*
+* This circuit demonstrates the transient charging behavior of a capacitor
+* in an RC low-pass filter configuration. The output voltage rises
+* exponentially according to the RC time constant τ = RC.
+
+* RC Low Pass Filter Simulation
+
+* Voltage Source
+V1 in 0 DC 5
+
+* Resistor
+R1 in out 1k
+
+* Capacitor
+C1 out 0 1uF
+
+* Transient simulation
+.tran 1us 10ms
+
+.control
+run
+plot v(out)
+.endc
+
+.end
