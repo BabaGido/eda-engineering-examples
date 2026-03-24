@@ -31,6 +31,12 @@ A simple PCB schematic demonstrating voltage regulation and decoupling capacitor
 ### 3. Engineering Analysis with Python
 Python scripts demonstrating analytical modeling of circuit behavior such as capacitor charging curves and time-domain responses.
 
+### 4. Python-Based Engineering Plot
+`analysis/rc_charging_curve.py`  
+`analysis/rc_charging_curve.png`
+
+This example shows the analytical charging response of a capacitor in an RC circuit and includes a generated voltage-versus-time plot.
+
 ---
 
 ## Purpose
