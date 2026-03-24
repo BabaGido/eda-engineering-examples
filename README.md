@@ -30,15 +30,32 @@ A simple PCB schematic demonstrating voltage regulation and decoupling capacitor
 
 ### 3. Engineering Analysis with Python
 Python scripts demonstrating analytical modeling of circuit behavior such as capacitor charging curves and time-domain responses.
-
+---
 ### 4. Python-Based Engineering Plot
 `analysis/rc_charging_curve.py`  
 `analysis/rc_charging_curve.png`
 
 This example shows the analytical charging response of a capacitor in an RC circuit and includes a generated voltage-versus-time plot.
+---
+## 5. Frequency Response Example
+
+The script `rc_frequency_response.py` computes the frequency response of an RC low-pass filter.
+
+It generates a Bode-style magnitude plot showing attenuation versus frequency.
+
+Key concept:
+
+The cutoff frequency for an RC filter is given by:
+
+fc = 1 / (2πRC)
+
+For the example circuit:
+R = 1 kΩ  
+C = 1 µF  
+
+fc ≈ 159 Hz
 
 ---
-
 ## Purpose
 
 These examples demonstrate practical engineering reasoning used in:
